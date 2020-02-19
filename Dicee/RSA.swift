@@ -3,7 +3,7 @@
 //  Dicee
 //
 //  Created by Piyush Bajaj on 2/19/20.
-//  Copyright © 2020 Pranoy. All rights reserved.
+//  Copyright © 2020 Piyush Bajaj. All rights reserved.
 //
 
 import Foundation
