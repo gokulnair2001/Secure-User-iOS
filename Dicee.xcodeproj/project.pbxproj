@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2640A62523FA961D0055D094 /* SecretPassageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2640A62423FA961D0055D094 /* SecretPassageViewController.swift */; };
 		268E4E7223FDA418000A50EA /* RSAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E4E7123FDA418000A50EA /* RSAViewController.swift */; };
 		268E4E7423FDA47E000A50EA /* EncryptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E4E7323FDA47E000A50EA /* EncryptViewController.swift */; };
 		268E4E7623FDA4F7000A50EA /* RSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E4E7523FDA4F7000A50EA /* RSA.swift */; };
@@ -19,7 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2640A62423FA961D0055D094 /* SecretPassageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretPassageViewController.swift; sourceTree = "<group>"; };
 		268E4E7123FDA418000A50EA /* RSAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAViewController.swift; sourceTree = "<group>"; };
 		268E4E7323FDA47E000A50EA /* EncryptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptViewController.swift; sourceTree = "<group>"; };
 		268E4E7523FDA4F7000A50EA /* RSA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSA.swift; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 				268E4E7523FDA4F7000A50EA /* RSA.swift */,
 				268E4E7323FDA47E000A50EA /* EncryptViewController.swift */,
 				268E4E7123FDA418000A50EA /* RSAViewController.swift */,
-				2640A62423FA961D0055D094 /* SecretPassageViewController.swift */,
 				7B5E92F01FDB00930015E17A /* Assets.xcassets */,
 				7B5E92F21FDB00930015E17A /* LaunchScreen.storyboard */,
 				7B5E92F51FDB00930015E17A /* Info.plist */,
@@ -148,7 +145,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2640A62523FA961D0055D094 /* SecretPassageViewController.swift in Sources */,
 				7B5E92EC1FDB00930015E17A /* ViewController.swift in Sources */,
 				268E4E7623FDA4F7000A50EA /* RSA.swift in Sources */,
 				7B5E92EA1FDB00930015E17A /* AppDelegate.swift in Sources */,
