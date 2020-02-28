@@ -17,7 +17,7 @@ class RSAWrapper {
     private var privateKey : SecKey?
     
     
-    //MARK: - Key pair generatinf function
+    //MARK: - Key pair generating function
     func generateKeyPair(keySize: UInt, privateTag: String, publicTag: String) -> Bool {
         
         self.publicKey = nil
