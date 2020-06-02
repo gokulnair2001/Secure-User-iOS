@@ -23,7 +23,7 @@ class RSAViewController: UIViewController {
         
         //MARK: - Testing
         let rsa : RSAWrapper? = RSAWrapper()
-        let success : Bool = (rsa?.generateKeyPair(keySize: 2048, privateTag: "in.devangpatel", publicTag: "in.devangpatel"))!
+        let success : Bool = (rsa?.generateKeyPair(keySize: 2048, privateTag: "in.piyushbajaj", publicTag: "in.piyushbajaj"))!
         if (!success) {
             print("Failed")
             return
@@ -42,7 +42,7 @@ class RSAViewController: UIViewController {
         
         // Setting up RSA wrapper
                let rsa : RSAWrapper? = RSAWrapper()
-               let success : Bool = (rsa?.generateKeyPair(keySize: 2048, privateTag: "in.devangpatel", publicTag: "in.devangpatel"))!
+               let success : Bool = (rsa?.generateKeyPair(keySize: 2048, privateTag: "in.piyushbajaj", publicTag: "in.piyushbajaj"))!
                if (!success) {
                    print("Failed")
                    return
