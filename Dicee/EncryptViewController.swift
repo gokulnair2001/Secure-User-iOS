@@ -31,6 +31,7 @@ class EncryptViewController: UIViewController, UIImagePickerControllerDelegate,U
     
     
     
+    @IBOutlet weak var l1: UILabel!
     
     @IBAction func openLibraryAction(_ sender: UIButton) {
         openPhotoLibrary()
@@ -46,6 +47,11 @@ class EncryptViewController: UIViewController, UIImagePickerControllerDelegate,U
         
     }
     
+    @IBAction func didPseudEncrypt(_ sender: UIButton) {
+        pickedimage.image = UIImage(named: "taala" )
+        l1.text = "Encrypted!"
+        l1.isEnabled = true
+    }
 }
 
 //MARK:- imagePICKER
