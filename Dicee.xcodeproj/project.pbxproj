@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		236EF73E24877B0100028F0D /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236EF73D24877B0100028F0D /* MainTabBarController.swift */; };
 		266F082A240373EC00C2E2AF /* AESViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266F0829240373EC00C2E2AF /* AESViewController.swift */; };
 		268E4E7223FDA418000A50EA /* RSAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E4E7123FDA418000A50EA /* RSAViewController.swift */; };
 		268E4E7423FDA47E000A50EA /* EncryptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E4E7323FDA47E000A50EA /* EncryptViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		236EF73D24877B0100028F0D /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		266F0829240373EC00C2E2AF /* AESViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESViewController.swift; sourceTree = "<group>"; };
 		268E4E7123FDA418000A50EA /* RSAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAViewController.swift; sourceTree = "<group>"; };
 		268E4E7323FDA47E000A50EA /* EncryptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				7B5E92F01FDB00930015E17A /* Assets.xcassets */,
 				7B5E92F21FDB00930015E17A /* LaunchScreen.storyboard */,
 				7B5E92F51FDB00930015E17A /* Info.plist */,
+				236EF73D24877B0100028F0D /* MainTabBarController.swift */,
 			);
 			path = Dicee;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				7B5E92EC1FDB00930015E17A /* ViewController.swift in Sources */,
 				268E4E7623FDA4F7000A50EA /* RSA.swift in Sources */,
 				7B5E92EA1FDB00930015E17A /* AppDelegate.swift in Sources */,
+				236EF73E24877B0100028F0D /* MainTabBarController.swift in Sources */,
 				268E4E7223FDA418000A50EA /* RSAViewController.swift in Sources */,
 				266F082A240373EC00C2E2AF /* AESViewController.swift in Sources */,
 				268E4E7423FDA47E000A50EA /* EncryptViewController.swift in Sources */,

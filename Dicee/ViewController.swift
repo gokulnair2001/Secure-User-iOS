@@ -45,7 +45,11 @@ class ViewController: UIViewController {
     override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
         updateDiceImages() // Motion Sensor event triggers
     }
-//
+    @IBAction func SecretButtonPressed(_ sender: UIButton) {
+        let mainTabBarController = storyboard?.instantiateViewController(withIdentifier: "MainTabBarController") as! MainTabBarController
+        present(mainTabBarController, animated: true, completion: nil)
+    }
+    //
 //    @IBAction func SecretPassageButtonPressed(_ sender: UIButton) {
         
 //        let context = LAContext()
